@@ -1,0 +1,95 @@
+#header h1 .Ntxt_naver{
+	float: left;
+    width: 53px;
+    height: 10px;
+    background-position: 0 -170px;
+    margin-top: 6px;
+}
+
+#header h1 .Ntxt_comic {
+    float: left;
+    width: 40px;
+    height: 21px;
+    background-position: -65px -170px;
+    margin-left: 7px;
+}
+
+#header h1 .bar {
+    float: left;
+    overflow: hidden;
+    width: 1px;
+    height: 13px;
+    margin: 6px 10px 0 8px;
+    background-color: #d2d2d2;
+    line-height: 999px;
+    vertical-align: top;
+}
+
+#header h1 .Ntxt_novel {
+    float: left;
+    width: 40px;
+    height: 15px;
+    background-position: -120px -170px;
+    margin-top: 3px;
+}
+
+#snb_wrap {
+    height: 37px;
+    padding: 10px 0 8px;
+    overflow: hidden;
+}
+
+#snb_wrap .ph {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    line-height: 35px;
+    color: #737373;
+}
+
+#snb_wrap .snb_search_box .snb_search_text {
+    width: 100%;
+    border: 0;
+    color: #737373;
+    font: 12px '돋움',Dotum,Helvetica,sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+#snb_wrap .snb_search_box .btn_search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#snb_wrap .snb_search_box .Nico_search {
+    width: 17px;
+    height: 17px;
+    background-position: -220px 0;
+}
+
+[class^=Ntxt_] {
+    display: inline-block;
+    background: url(https://ssl.pstatic.net/static/comic/images/sp/sp_Ntxt.png) no-repeat;
+    vertical-align: top;
+    font-size: 0;
+    line-height: 0;
+}
+
+[class^=Nico_], .my_work_area .pause_info:before {
+    display: inline-block;
+    background: url(https://ssl.pstatic.net/static/comic/images/sp/sp_Nico.png) no-repeat;
+    vertical-align: top;
+    font-size: 0;
+    line-height: 0;
+}
